@@ -1,0 +1,191 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:black;
+  color:white;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+*{
+  padding:0;
+  margin:0;
+}
+.head{
+  background-color: white;
+  height:15vh;
+  position:fixed;
+  z-index:1000;
+  width:100%;
+  padding-top: 0;
+  
+}
+.headd
+{
+  color:black;
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content: right;
+  padding:10vh;
+}
+.head a{
+   text-decoration: none;
+}
+
+.home{
+  height: 100vh;
+  background: url('https://thumbs.dreamstime.com/b/world-landmarks-photo-collage-vintage-tes-sepia-textured-background-travel-tourism-study-around-world-concept-vintag-94756410.jpg') no-repeat center center/cover;
+  position: relative;
+}
+#home
+{
+  order:1;
+}
+#gallery{
+  order:2;
+}
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.home-content p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.home-btn {
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.home-btn:hover {
+  background-color: #005fa3;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.card {
+  flex: 0 0 calc(25% - 20px); 
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+
+.card img {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover; 
+}
+
+.card-content {
+  flex-grow: 1;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card-content h3 {
+  margin: 0 0 5px;
+  color: #0077cc;
+}
+
+.card-content p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #0077cc;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+.about, .contact {
+  padding: 60px 20px;
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+
+.about h2, .contact h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #0077cc;
+}
+
+.about p, .contact p {
+  max-width: 700px;
+  margin: 0 auto 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+#about{
+  order:3;
+}
+#contact {
+  order:4;
+}
