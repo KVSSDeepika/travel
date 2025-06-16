@@ -1,0 +1,41 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      color: #444;
+    }
+    .btn-back {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .btn-front {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: hsl(61, 73%, 50%);
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  .btn-row {
+  display: flex;
+  justify-content: space-between; /* Pushes buttons to edges */
+  margin-top: 20px;
+}
