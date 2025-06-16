@@ -8,6 +8,7 @@
       max-width: 100%;
       height: auto;
       border-radius: 12px;
+      margin-bottom: 20px;
     }
     .container {
       max-width: 800px;
@@ -39,3 +40,14 @@
   justify-content: space-between; /* Pushes buttons to edges */
   margin-top: 20px;
 }
+.carousel-item img {
+  display:flex;
+  padding-top:0px;
+  border-radius: 10px;
+    height: 300px;         
+    width: 200px;           
+    object-fit: cover;    
+}
+
+
+
